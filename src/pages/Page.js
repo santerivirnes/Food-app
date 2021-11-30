@@ -9,7 +9,7 @@ const Page = () => {
   const [restaurant, setRestaurant] = useState("")
 
   var url = "https://api.mapbox.com/geocoding/v5/mapbox.places/food.json?limit=10&proximity="
-  var access_token="pk.eyJ1Ijoic2FudGVyaXZpcm5lcyIsImEiOiJja2ttZm1td3cycWh0Mm9tbmJuc2R4a2R5In0.wZK_CeM71Uf-yLKUwH0Ssw";
+  var access_token="<TokenHere>";
   const findFoods = () => {
     
     navigator.geolocation.getCurrentPosition(function(position) {
